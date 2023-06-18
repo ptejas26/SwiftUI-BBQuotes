@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+extension String {
+    var replanceSpaceWithPlus: String {
+        self.replacingOccurrences(of: " ", with: "+")
+    }
+}

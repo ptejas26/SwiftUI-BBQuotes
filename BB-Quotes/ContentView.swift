@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let controller = FetchController()
+    
     var body: some View {
         TabView {
             Text("Breaking Bad View")
@@ -21,6 +24,10 @@ struct ContentView: View {
                 }
         }
         .onAppear {
+            Task {
+                let data = try await controller.fetchQuote(from: "Breaking Bad")
+                print(data)
+            }
             UITabBar.appearance().scrollEdgeAppearance = UITabBarAppearance()
         }
         .preferredColorScheme(.dark)

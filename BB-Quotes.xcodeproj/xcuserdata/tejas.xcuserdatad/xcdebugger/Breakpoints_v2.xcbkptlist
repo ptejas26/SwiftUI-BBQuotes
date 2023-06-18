@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "687A79E5-15D1-4D0D-A75D-DEC33505FF84"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "440B196E-DF79-4D0C-AF9C-58B4E99F2E20"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BB-Quotes/FetchController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "fetchQuote(from:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "440B196E-DF79-4D0C-AF9C-58B4E99F2E20 - e6f6331e918d6773"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for BB_Quotes.FetchController.fetchQuote(from: Swift.String) async throws -&gt; BB_Quotes.QuoteModel"
+                  moduleName = "BB-Quotes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejas/Downloads/Tejas%20/Learning/Swift/SwiftUI/Course/BB-Quotes/BB-Quotes/FetchController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "1360">
+               </Location>
+               <Location
+                  uuid = "440B196E-DF79-4D0C-AF9C-58B4E99F2E20 - 8e102395ae470638"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for BB_Quotes.FetchController.fetchQuote(from: Swift.String) async throws -&gt; BB_Quotes.QuoteModel"
+                  moduleName = "BB-Quotes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejas/Downloads/Tejas%20/Learning/Swift/SwiftUI/Course/BB-Quotes/BB-Quotes/FetchController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "440B196E-DF79-4D0C-AF9C-58B4E99F2E20 - 175eb0af36832abd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for BB_Quotes.FetchController.fetchQuote(from: Swift.String) async throws -&gt; BB_Quotes.QuoteModel"
+                  moduleName = "BB-Quotes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejas/Downloads/Tejas%20/Learning/Swift/SwiftUI/Course/BB-Quotes/BB-Quotes/FetchController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "440B196E-DF79-4D0C-AF9C-58B4E99F2E20 - ac0af0e48703cc9e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for BB_Quotes.FetchController.fetchQuote(from: Swift.String) async throws -&gt; BB_Quotes.QuoteModel"
+                  moduleName = "BB-Quotes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejas/Downloads/Tejas%20/Learning/Swift/SwiftUI/Course/BB-Quotes/BB-Quotes/FetchController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "440B196E-DF79-4D0C-AF9C-58B4E99F2E20 - 175eb0af36832abd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for BB_Quotes.FetchController.fetchQuote(from: Swift.String) async throws -&gt; BB_Quotes.QuoteModel"
+                  moduleName = "BB-Quotes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejas/Downloads/Tejas%20/Learning/Swift/SwiftUI/Course/BB-Quotes/BB-Quotes/FetchController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9BCE7590-9F19-407C-AB35-25BD1D79A518"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BB-Quotes/FetchController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "fetchQuote(from:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9BCE7590-9F19-407C-AB35-25BD1D79A518 - 175eb0af36832ac3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for BB_Quotes.FetchController.fetchQuote(from: Swift.String) async throws -&gt; BB_Quotes.QuoteModel"
+                  moduleName = "BB-Quotes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejas/Downloads/Tejas%20/Learning/Swift/SwiftUI/Course/BB-Quotes/BB-Quotes/FetchController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "9BCE7590-9F19-407C-AB35-25BD1D79A518 - 175eb0af36832ac3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for BB_Quotes.FetchController.fetchQuote(from: Swift.String) async throws -&gt; BB_Quotes.QuoteModel"
+                  moduleName = "BB-Quotes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejas/Downloads/Tejas%20/Learning/Swift/SwiftUI/Course/BB-Quotes/BB-Quotes/FetchController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "332">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

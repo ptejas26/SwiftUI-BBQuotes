@@ -21,5 +21,4 @@ struct CharacterModel: Decodable {
     let images: [URL]
     let aliases: [String]
     let portrayedBy: String
-    
 }
