@@ -9,7 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     
-    let controller = FetchController()
+//    let controller = FetchController()
+//    let viewModel: ViewModel = ViewModel(controller: self.controller)
     
     var body: some View {
         TabView {
@@ -25,8 +26,8 @@ struct ContentView: View {
         }
         .onAppear {
             Task {
-                let data = try await controller.fetchQuote(from: "Breaking Bad")
-                print(data)
+//                let data = try await viewModel.getData(for: "Breaking Bad")
+//                print(data)
             }
             UITabBar.appearance().scrollEdgeAppearance = UITabBarAppearance()
         }

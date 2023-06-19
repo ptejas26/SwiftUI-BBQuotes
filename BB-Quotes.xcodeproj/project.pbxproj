@@ -17,6 +17,8 @@
 		96575F4F2A3F8A9C00FA326B /* QuotesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96575F4E2A3F8A9C00FA326B /* QuotesModel.swift */; };
 		966B05712A3F9E92007360F4 /* FetchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966B05702A3F9E92007360F4 /* FetchController.swift */; };
 		966B05732A3FA6AA007360F4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966B05722A3FA6AA007360F4 /* Constants.swift */; };
+		966B05752A3FCB02007360F4 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966B05742A3FCB02007360F4 /* ViewModel.swift */; };
+		966B05772A3FCDAF007360F4 /* QuotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966B05762A3FCDAF007360F4 /* QuotesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		96575F4E2A3F8A9C00FA326B /* QuotesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesModel.swift; sourceTree = "<group>"; };
 		966B05702A3F9E92007360F4 /* FetchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchController.swift; sourceTree = "<group>"; };
 		966B05722A3FA6AA007360F4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		966B05742A3FCB02007360F4 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		966B05762A3FCDAF007360F4 /* QuotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,8 @@
 				96575F482A3F7FAD00FA326B /* Base URL.txt */,
 				96575F492A3F7FAD00FA326B /* samplecharacter.json */,
 				96575F4E2A3F8A9C00FA326B /* QuotesModel.swift */,
+				966B05762A3FCDAF007360F4 /* QuotesView.swift */,
+				966B05742A3FCB02007360F4 /* ViewModel.swift */,
 				966B05702A3F9E92007360F4 /* FetchController.swift */,
 				966B05722A3FA6AA007360F4 /* Constants.swift */,
 				96575F3A2A3F7D0F00FA326B /* BB_QuotesApp.swift */,
@@ -162,6 +168,8 @@
 				96575F3D2A3F7D0F00FA326B /* ContentView.swift in Sources */,
 				96575F3B2A3F7D0F00FA326B /* BB_QuotesApp.swift in Sources */,
 				966B05712A3F9E92007360F4 /* FetchController.swift in Sources */,
+				966B05752A3FCB02007360F4 /* ViewModel.swift in Sources */,
+				966B05772A3FCDAF007360F4 /* QuotesView.swift in Sources */,
 				96575F4F2A3F8A9C00FA326B /* QuotesModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
