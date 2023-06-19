@@ -16,7 +16,7 @@ struct QuoteModel: Decodable {
 
 struct CharacterModel: Decodable {
     let name: String
-    let birthDay: String
+    let birthday: String
     let occupations: [String]
     let images: [URL]
     let aliases: [String]

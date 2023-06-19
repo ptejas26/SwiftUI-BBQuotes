@@ -9,43 +9,63 @@ import SwiftUI
 
 struct QuotesView: View {
     
-//    let viewModel = ViewModel(controller: FetchController())
+    @ObservedObject private var  viewModel = ViewModel(controller: FetchController())
+    let showString: String
     var body: some View {
         GeometryReader { geo in
         
             ZStack {
-                Image("breakingbad")
+                Image(showString.lowercased().filter({ $0 != " " }))
                     .resizable()
                     .frame(width: geo.size.width * 2.7, height: geo.size.height * 1.2)
                 VStack {
                     Spacer()
                     
-                    Text("\"You either run from things, or you face them, Mr. White\"")
-                    // this property will scale down the font size for long text size 
-                        .minimumScaleFactor(0.5)
-                        .multilineTextAlignment(.center)
-                        .foregroundColor(.white)
-                        .padding()
-                        .background(.black.opacity(0.5))
-                        .cornerRadius(15)
-                        .padding(.horizontal)
-                    
-                    ZStack(alignment: .bottom) {
-                        Image("jessepinkman")
-                            .resizable()
-                            .scaledToFill()
-                        Text("Jesse Pinkman")
+                    switch viewModel.status {
+                    case .success(let data):
+                        Text("\"\(data.quote.quote)\"")
+                        // this property will scale down the font size for long text size
+                            .minimumScaleFactor(0.5)
+                            .multilineTextAlignment(.center)
                             .foregroundColor(.white)
-                            .padding(10)
-                            .frame(maxWidth: .infinity)
-                            .background(.ultraThinMaterial)
+                            .padding()
+                            .background(.black.opacity(0.5))
+                            .cornerRadius(15)
+                            .padding(.horizontal)
+                        
+                        ZStack(alignment: .bottom) {
+
+                            AsyncImage(url: data.character.images.first!) { image in
+                                image
+                                    .resizable()
+                                    .scaledToFill()
+                                
+                            } placeholder: {
+                                ProgressView()
+                            }
+                            .frame(width: geo.size.width/1.1, height: geo.size.height/1.8)
+                            
+                            
+                            Text(data.quote.character)
+                                .foregroundColor(.white)
+                                .padding(10)
+                                .frame(maxWidth: .infinity)
+                                .background(.ultraThinMaterial)
+                        }
+                        .frame(width: geo.size.width/1.1, height: geo.size.height/1.8)
+                        .cornerRadius(40)
+                        
+                        Spacer()
+                    case .fetching:
+                        ProgressView()
+                    default:
+                        EmptyView()
                     }
-                    .frame(width: geo.size.width/1.1, height: geo.size.height/1.8)
-                    .cornerRadius(40)
-                
-                    Spacer()
                     
                     Button() {
+                        Task {
+                            await viewModel.getData(for: showString)
+                        }
                         
                     } label: {
                         Text("Get Random Quotes")
@@ -58,6 +78,7 @@ struct QuotesView: View {
                     }
                     
                     Spacer(minLength: 100)
+                    
                 }
                 .frame(width: geo.size.width, height: geo.size.height)
             }
@@ -68,6 +89,6 @@ struct QuotesView: View {
 }
 
 #Preview {
-    QuotesView()
+    QuotesView(showString: "Breaking Bad")
         .preferredColorScheme(.dark)
 }
