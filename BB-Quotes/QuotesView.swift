@@ -15,53 +15,54 @@ struct QuotesView: View {
         GeometryReader { geo in
         
             ZStack {
-                Image(showString.lowercased().filter({ $0 != " " }))
+                Image(showString.lowerNoSpaces)
                     .resizable()
                     .frame(width: geo.size.width * 2.7, height: geo.size.height * 1.2)
                 VStack {
-                    Spacer()
-                    
-                    switch viewModel.status {
-                    case .success(let data):
-                        Text("\"\(data.quote.quote)\"")
-                        // this property will scale down the font size for long text size
-                            .minimumScaleFactor(0.5)
-                            .multilineTextAlignment(.center)
-                            .foregroundColor(.white)
-                            .padding()
-                            .background(.black.opacity(0.5))
-                            .cornerRadius(15)
-                            .padding(.horizontal)
+                    VStack {
+                        Spacer()
                         
-                        ZStack(alignment: .bottom) {
-
-                            AsyncImage(url: data.character.images.first!) { image in
-                                image
-                                    .resizable()
-                                    .scaledToFill()
+                        switch viewModel.status {
+                        case .success(let data):
+                            Text("\"\(data.quote.quote)\"")
+                            // this property will scale down the font size for long text size
+                                .minimumScaleFactor(0.5)
+                                .multilineTextAlignment(.center)
+                                .foregroundColor(.white)
+                                .padding()
+                                .background(.black.opacity(0.5))
+                                .cornerRadius(15)
+                                .padding(.horizontal)
+                            
+                            ZStack(alignment: .bottom) {
                                 
-                            } placeholder: {
-                                ProgressView()
+                                AsyncImage(url: data.character.images.first!) { image in
+                                    image
+                                        .resizable()
+                                        .scaledToFill()
+                                    
+                                } placeholder: {
+                                    ProgressView()
+                                }
+                                .frame(width: geo.size.width/1.1, height: geo.size.height/1.8)
+                                
+                                
+                                Text(data.quote.character)
+                                    .foregroundColor(.white)
+                                    .padding(10)
+                                    .frame(maxWidth: .infinity)
+                                    .background(.ultraThinMaterial)
                             }
                             .frame(width: geo.size.width/1.1, height: geo.size.height/1.8)
+                            .cornerRadius(40)
                             
-                            
-                            Text(data.quote.character)
-                                .foregroundColor(.white)
-                                .padding(10)
-                                .frame(maxWidth: .infinity)
-                                .background(.ultraThinMaterial)
+                            Spacer()
+                        case .fetching:
+                            ProgressView()
+                        default:
+                            EmptyView()
                         }
-                        .frame(width: geo.size.width/1.1, height: geo.size.height/1.8)
-                        .cornerRadius(40)
-                        
-                        Spacer()
-                    case .fetching:
-                        ProgressView()
-                    default:
-                        EmptyView()
                     }
-                    
                     Button() {
                         Task {
                             await viewModel.getData(for: showString)
@@ -72,13 +73,12 @@ struct QuotesView: View {
                             .font(.title)
                             .foregroundColor(.white)
                             .padding()
-                            .background(Color(.breadingBadGreen))
+                            .background(Color("\(showString.noSpaces)Button"))
                             .cornerRadius(12)
-                            .shadow(color: Color(.breadBadYellow), radius: 10)
+                            .shadow(color: Color("\(showString.noSpaces)Shadow"), radius: 10)
                     }
                     
                     Spacer(minLength: 100)
-                    
                 }
                 .frame(width: geo.size.width, height: geo.size.height)
             }
@@ -89,6 +89,6 @@ struct QuotesView: View {
 }
 
 #Preview {
-    QuotesView(showString: "Breaking Bad")
+    QuotesView(showString: Constants.bbName)
         .preferredColorScheme(.dark)
 }

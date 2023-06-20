@@ -14,14 +14,14 @@ struct ContentView: View {
     
     var body: some View {
         TabView {
-            QuotesView(showString: "Breaking Bad")
+            QuotesView(showString: Constants.bbName)
                 .tabItem {
-                    Label("Breaking Bad", systemImage: "tortoise")
+                    Label(Constants.bbName, systemImage: "tortoise")
                 }
             
-            Text("Better call Saul")
+            QuotesView(showString: Constants.bcsName)
                 .tabItem {
-                    Label("Better call Saul", systemImage: "briefcase")
+                    Label(Constants.bcsName, systemImage: "briefcase")
                 }
         }
         .onAppear {
