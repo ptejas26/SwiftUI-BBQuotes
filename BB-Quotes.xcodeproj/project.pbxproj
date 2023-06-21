@@ -37,6 +37,7 @@
 		966B05742A3FCB02007360F4 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		966B05762A3FCDAF007360F4 /* QuotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesView.swift; sourceTree = "<group>"; };
 		966B05782A42AA49007360F4 /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
+		966B057A2A42B8E4007360F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +70,7 @@
 		96575F392A3F7D0F00FA326B /* BB-Quotes */ = {
 			isa = PBXGroup;
 			children = (
+				966B057A2A42B8E4007360F4 /* Info.plist */,
 				96575F4C2A3F8A6100FA326B /* Course+Outline.pdf */,
 				966B05782A42AA49007360F4 /* CharacterView.swift */,
 				96575F482A3F7FAD00FA326B /* Base URL.txt */,
@@ -311,6 +313,8 @@
 				DEVELOPMENT_TEAM = 92698P7GR3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BB-Quotes/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Say My Name";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -340,6 +344,8 @@
 				DEVELOPMENT_TEAM = 92698P7GR3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BB-Quotes/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Say My Name";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
