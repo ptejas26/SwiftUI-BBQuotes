@@ -19,6 +19,7 @@
 		966B05732A3FA6AA007360F4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966B05722A3FA6AA007360F4 /* Constants.swift */; };
 		966B05752A3FCB02007360F4 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966B05742A3FCB02007360F4 /* ViewModel.swift */; };
 		966B05772A3FCDAF007360F4 /* QuotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966B05762A3FCDAF007360F4 /* QuotesView.swift */; };
+		966B05792A42AA49007360F4 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966B05782A42AA49007360F4 /* CharacterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		966B05722A3FA6AA007360F4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		966B05742A3FCB02007360F4 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		966B05762A3FCDAF007360F4 /* QuotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesView.swift; sourceTree = "<group>"; };
+		966B05782A42AA49007360F4 /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				96575F4C2A3F8A6100FA326B /* Course+Outline.pdf */,
+				966B05782A42AA49007360F4 /* CharacterView.swift */,
 				96575F482A3F7FAD00FA326B /* Base URL.txt */,
 				96575F492A3F7FAD00FA326B /* samplecharacter.json */,
 				96575F4E2A3F8A9C00FA326B /* QuotesModel.swift */,
@@ -170,6 +173,7 @@
 				966B05712A3F9E92007360F4 /* FetchController.swift in Sources */,
 				966B05752A3FCB02007360F4 /* ViewModel.swift in Sources */,
 				966B05772A3FCDAF007360F4 /* QuotesView.swift in Sources */,
+				966B05792A42AA49007360F4 /* CharacterView.swift in Sources */,
 				96575F4F2A3F8A9C00FA326B /* QuotesModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

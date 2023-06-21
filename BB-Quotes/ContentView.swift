@@ -18,6 +18,7 @@ struct ContentView: View {
                 .tabItem {
                     Label(Constants.bbName, systemImage: "tortoise")
                 }
+                
             
             QuotesView(showString: Constants.bcsName)
                 .tabItem {
@@ -26,8 +27,7 @@ struct ContentView: View {
         }
         .onAppear {
             Task {
-//                let data = try await viewModel.getData(for: "Breaking Bad")
-//                print(data)
+
             }
             UITabBar.appearance().scrollEdgeAppearance = UITabBarAppearance()
         }

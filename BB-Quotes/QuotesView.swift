@@ -11,6 +11,10 @@ struct QuotesView: View {
     
     @ObservedObject private var  viewModel = ViewModel(controller: FetchController())
     let showString: String
+    @State private var showCharacterInfo: Bool = false
+    
+    
+    
     var body: some View {
         GeometryReader { geo in
         
@@ -45,6 +49,16 @@ struct QuotesView: View {
                                     ProgressView()
                                 }
                                 .frame(width: geo.size.width/1.1, height: geo.size.height/1.8)
+                                
+                                .onTapGesture(perform: {
+//                                    NavigationLink(destination: CharacterView(character: Constants.previewCharacter, show: Constants.bbName)) {
+//                                        Text("Welcome")
+//                                    }
+                                    showCharacterInfo.toggle()
+                                })
+                                .sheet(isPresented: $showCharacterInfo, content: {
+                                    CharacterView(character: data.character, show: showString)
+                                })
                                 
                                 
                                 Text(data.quote.character)
