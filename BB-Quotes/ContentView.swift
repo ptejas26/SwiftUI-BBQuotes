@@ -9,8 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     
-//    let controller = FetchController()
-//    let viewModel: ViewModel = ViewModel(controller: self.controller)
+    //    let controller = FetchController()
+    //    let viewModel: ViewModel = ViewModel(controller: self.controller)
     
     var body: some View {
         TabView {
@@ -18,7 +18,7 @@ struct ContentView: View {
                 .tabItem {
                     Label(Constants.bbName, systemImage: "tortoise")
                 }
-                
+            
             
             QuotesView(showString: Constants.bcsName)
                 .tabItem {
@@ -27,7 +27,7 @@ struct ContentView: View {
         }
         .onAppear {
             Task {
-
+                
             }
             UITabBar.appearance().scrollEdgeAppearance = UITabBarAppearance()
         }

@@ -14,7 +14,6 @@ struct QuotesView: View {
     @State private var showCharacterInfo: Bool = false
     
     
-    
     var body: some View {
         GeometryReader { geo in
         
@@ -97,8 +96,13 @@ struct QuotesView: View {
                 .frame(width: geo.size.width, height: geo.size.height)
             }
             .frame(width: geo.size.width, height: geo.size.height)
-        }.ignoresSafeArea()
-        
+        }
+        .ignoresSafeArea()
+        .onAppear {
+            Task {
+                await viewModel.getData(for: Constants.bbName)
+            }
+        }
     }
 }
 
