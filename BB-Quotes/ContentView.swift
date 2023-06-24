@@ -9,9 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     
-    //    let controller = FetchController()
-    //    let viewModel: ViewModel = ViewModel(controller: self.controller)
-    
+    @ObservedObject private var  viewModel = ViewModel(controller: FetchController())
+    @State var randomCharacter: CharacterModel
+    let showNames: [String] = [Constants.bbName, Constants.bcsName]
+
     var body: some View {
         TabView {
             QuotesView(showString: Constants.bbName)
@@ -24,10 +25,23 @@ struct ContentView: View {
                 .tabItem {
                     Label(Constants.bcsName, systemImage: "briefcase")
                 }
+            
+            switch viewModel.status {
+            case .characterSuccess(let data):
+                CharacterView(character: data, show: showNames.randomElement()!)
+                    .tabItem {
+                        Label(Constants.randomCharacter, systemImage: "character.bubble.fill")
+                    }
+            case .fetching:
+                ProgressView()
+            default:
+                EmptyView()
+            }
+            
         }
         .onAppear {
             Task {
-                
+                await viewModel.getRandomCharacter()
             }
             UITabBar.appearance().scrollEdgeAppearance = UITabBarAppearance()
         }
@@ -36,5 +50,6 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    ContentView(randomCharacter: Constants.previewCharacter)
+        //randomCharacter: Constants.previewCharacter)
 }

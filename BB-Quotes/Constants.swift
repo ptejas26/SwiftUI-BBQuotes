@@ -10,7 +10,8 @@ import Foundation
 enum Constants {
     static let bbName: String = "Breaking Bad"
     static let bcsName: String = "Better Call Saul"
-    
+    static let randomCharacter: String = "Random Character"
+
     static let previewCharacter: CharacterModel = {
         let decoder = JSONDecoder()
         decoder.keyDecodingStrategy = .convertFromSnakeCase

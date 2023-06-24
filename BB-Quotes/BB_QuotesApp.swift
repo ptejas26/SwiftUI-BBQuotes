@@ -11,7 +11,7 @@ import SwiftUI
 struct BB_QuotesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(randomCharacter: Constants.previewCharacter)
         }
     }
 }

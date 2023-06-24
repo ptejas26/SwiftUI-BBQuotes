@@ -13,6 +13,7 @@ class ViewModel: ObservableObject {
         case notStarted
         case fetching
         case success(data: (quote: QuoteModel, character: CharacterModel))
+        case characterSuccess(data: CharacterModel)
         case failed(error: Error)
     }
     
@@ -34,5 +35,32 @@ class ViewModel: ObservableObject {
         } catch {
             status = .failed(error: error)
         }
+    }
+    
+    func getRandomCharacter() async {
+        status = .fetching
+        do {
+            let character = try await self.controller.fetchRandomCharacter()
+            status = .characterSuccess(data: character)
+        } catch {
+            status = .failed(error: error)
+        }
+    }
+    
+    func getQuote(for character: String) async throws {
+        status = .fetching
+        do {
+            guard let quote = try await self.controller.fetchQuotes(for: character) else {
+                throw CustomError.noQuote
+            }
+            status = .success(data: (quote: quote, character: CharacterModel(name: "", birthday: "", occupations: [], images: [], aliases: [], portrayedBy: "")))
+
+        } catch {
+            status = .failed(error: error)
+        }
+    }
+    
+    enum CustomError: Error {
+        case noQuote
     }
 }

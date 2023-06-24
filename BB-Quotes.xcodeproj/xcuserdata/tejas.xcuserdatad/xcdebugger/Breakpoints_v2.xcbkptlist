@@ -120,7 +120,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "7FACDAD0-E065-4D74-819F-9D5558F6ACF4"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BB-Quotes/FetchController.swift"
@@ -197,24 +197,8 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "2B3ED505-9CF6-43B2-B893-04B2113B89B0"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "BB-Quotes/FetchController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
-            landmarkName = "fetchCharacter(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "158C6419-C71F-425F-A1DC-A71D227966FF"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BB-Quotes/FetchController.swift"
@@ -307,17 +291,235 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "CB61C5EE-D4A3-41C4-99EC-F60D281B956C"
+            uuid = "5EDC729A-30A9-458B-A1A8-07D3704BA629"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BB-Quotes/RandomQuoteView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "5EDC729A-30A9-458B-A1A8-07D3704BA629 - f421b8b7da6ca63b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BB_Quotes.RandomQuoteView.body.getter : some"
+                  moduleName = "BB-Quotes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejas/Downloads/Tejas%20/Learning/Swift/SwiftUI/Course/BB-Quotes/BB-Quotes/RandomQuoteView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "240">
+               </Location>
+               <Location
+                  uuid = "5EDC729A-30A9-458B-A1A8-07D3704BA629 - 5080b1a4f3a46807"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Spacer, SwiftUI.Text, SwiftUI.Divider, SwiftUI.VStack&lt;SwiftUI.Text&gt;, SwiftUI.Spacer, SwiftUI.Spacer, SwiftUI.Spacer)&gt;&gt;, SwiftUI.Text&gt;, SwiftUI.ProgressView&lt;SwiftUI.EmptyView, SwiftUI.EmptyView&gt;&gt; in BB_Quotes.RandomQuoteView.body.getter : some"
+                  moduleName = "BB-Quotes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejas/Downloads/Tejas%20/Learning/Swift/SwiftUI/Course/BB-Quotes/BB-Quotes/RandomQuoteView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "640">
+               </Location>
+               <Location
+                  uuid = "5EDC729A-30A9-458B-A1A8-07D3704BA629 - 44d824310e7f244c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Spacer, SwiftUI.Text, SwiftUI.Divider, SwiftUI.VStack&lt;SwiftUI.Text&gt;, SwiftUI.Spacer, SwiftUI.Spacer, SwiftUI.Spacer)&gt;&gt;, SwiftUI.Text&gt;, SwiftUI._ConditionalContent&lt;SwiftUI.ProgressView&lt;SwiftUI.EmptyView, SwiftUI.EmptyView&gt;, SwiftUI.EmptyView&gt;&gt; in BB_Quotes.RandomQuoteView.body.getter : some"
+                  moduleName = "BB-Quotes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejas/Downloads/Tejas%20/Learning/Swift/SwiftUI/Course/BB-Quotes/BB-Quotes/RandomQuoteView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "716">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D7327564-4DF7-4BBB-B5B4-2614584A5026"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BB-Quotes/RandomQuoteView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "D7327564-4DF7-4BBB-B5B4-2614584A5026 - 5080b1a4f3a46824"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Spacer, SwiftUI.Text, SwiftUI.Divider, SwiftUI.VStack&lt;SwiftUI.Text&gt;, SwiftUI.Spacer, SwiftUI.Spacer, SwiftUI.Spacer)&gt;&gt;, SwiftUI.Text&gt;, SwiftUI.ProgressView&lt;SwiftUI.EmptyView, SwiftUI.EmptyView&gt;&gt; in BB_Quotes.RandomQuoteView.body.getter : some"
+                  moduleName = "BB-Quotes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejas/Downloads/Tejas%20/Learning/Swift/SwiftUI/Course/BB-Quotes/BB-Quotes/RandomQuoteView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "700">
+               </Location>
+               <Location
+                  uuid = "D7327564-4DF7-4BBB-B5B4-2614584A5026 - 5080b1a4f3a46824"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Spacer, SwiftUI.Text, SwiftUI.Divider, SwiftUI.VStack&lt;SwiftUI.Text&gt;, SwiftUI.Spacer, SwiftUI.Spacer, SwiftUI.Spacer)&gt;&gt;, SwiftUI.Text&gt;, SwiftUI.ProgressView&lt;SwiftUI.EmptyView, SwiftUI.EmptyView&gt;&gt; in BB_Quotes.RandomQuoteView.body.getter : some"
+                  moduleName = "BB-Quotes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejas/Downloads/Tejas%20/Learning/Swift/SwiftUI/Course/BB-Quotes/BB-Quotes/RandomQuoteView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "756">
+               </Location>
+               <Location
+                  uuid = "D7327564-4DF7-4BBB-B5B4-2614584A5026 - 5080b1a4f3a46824"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Spacer, SwiftUI.Text, SwiftUI.Divider, SwiftUI.VStack&lt;SwiftUI.Text&gt;, SwiftUI.Spacer, SwiftUI.Spacer, SwiftUI.Spacer)&gt;&gt;, SwiftUI.Text&gt;, SwiftUI.ProgressView&lt;SwiftUI.EmptyView, SwiftUI.EmptyView&gt;&gt; in BB_Quotes.RandomQuoteView.body.getter : some"
+                  moduleName = "BB-Quotes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejas/Downloads/Tejas%20/Learning/Swift/SwiftUI/Course/BB-Quotes/BB-Quotes/RandomQuoteView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "1756">
+               </Location>
+               <Location
+                  uuid = "D7327564-4DF7-4BBB-B5B4-2614584A5026 - 44d824310e7f240e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Spacer, SwiftUI.Text, SwiftUI.Divider, SwiftUI.VStack&lt;SwiftUI.Text&gt;, SwiftUI.Spacer, SwiftUI.Spacer, SwiftUI.Spacer)&gt;&gt;, SwiftUI.Text&gt;, SwiftUI._ConditionalContent&lt;SwiftUI.ProgressView&lt;SwiftUI.EmptyView, SwiftUI.EmptyView&gt;, SwiftUI.EmptyView&gt;&gt; in BB_Quotes.RandomQuoteView.body.getter : some"
+                  moduleName = "BB-Quotes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejas/Downloads/Tejas%20/Learning/Swift/SwiftUI/Course/BB-Quotes/BB-Quotes/RandomQuoteView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "1580">
+               </Location>
+               <Location
+                  uuid = "D7327564-4DF7-4BBB-B5B4-2614584A5026 - 96304dce7d9096bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Spacer, SwiftUI.Text, SwiftUI.Divider, SwiftUI.VStack&lt;SwiftUI.Text&gt;, SwiftUI.Spacer, SwiftUI.Spacer, SwiftUI.Spacer)&gt; in closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Spacer, SwiftUI.Text, SwiftUI.Divider, SwiftUI.VStack&lt;SwiftUI.Text&gt;, SwiftUI.Spacer, SwiftUI.Spacer, SwiftUI.Spacer)&gt;&gt;, SwiftUI.Text&gt;, SwiftUI._ConditionalContent&lt;SwiftUI.ProgressView&lt;SwiftUI.EmptyView, SwiftUI.EmptyView&gt;, SwiftUI.EmptyView&gt;&gt; in BB_Quotes.RandomQuoteView.body.getter : some"
+                  moduleName = "BB-Quotes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejas/Downloads/Tejas%20/Learning/Swift/SwiftUI/Course/BB-Quotes/BB-Quotes/RandomQuoteView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "624">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ED3EAB7A-D0B8-4473-85CB-8800EE2250FC"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "BB-Quotes/QuotesView.swift"
+            filePath = "BB-Quotes/ViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "89"
-            endingLineNumber = "89"
-            landmarkName = "body"
-            landmarkType = "24">
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "getQuote(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "ED3EAB7A-D0B8-4473-85CB-8800EE2250FC - 153a41e1787df2bd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for BB_Quotes.ViewModel.getQuote(for: Swift.String) async throws -&gt; ()"
+                  moduleName = "BB-Quotes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejas/Downloads/Tejas%20/Learning/Swift/SwiftUI/Course/BB-Quotes/BB-Quotes/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "ED3EAB7A-D0B8-4473-85CB-8800EE2250FC - 8d3d700129e3b69b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for BB_Quotes.ViewModel.getQuote(for: Swift.String) async throws -&gt; ()"
+                  moduleName = "BB-Quotes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejas/Downloads/Tejas%20/Learning/Swift/SwiftUI/Course/BB-Quotes/BB-Quotes/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "ED3EAB7A-D0B8-4473-85CB-8800EE2250FC - c174cf7d4f042ebb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for BB_Quotes.ViewModel.getQuote(for: Swift.String) async throws -&gt; ()"
+                  moduleName = "BB-Quotes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejas/Downloads/Tejas%20/Learning/Swift/SwiftUI/Course/BB-Quotes/BB-Quotes/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "ED3EAB7A-D0B8-4473-85CB-8800EE2250FC - 6793f03749938cb8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for BB_Quotes.ViewModel.getQuote(for: Swift.String) async throws -&gt; ()"
+                  moduleName = "BB-Quotes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejas/Downloads/Tejas%20/Learning/Swift/SwiftUI/Course/BB-Quotes/BB-Quotes/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

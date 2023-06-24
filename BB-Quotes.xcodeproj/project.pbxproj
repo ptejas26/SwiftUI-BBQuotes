@@ -20,6 +20,7 @@
 		966B05752A3FCB02007360F4 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966B05742A3FCB02007360F4 /* ViewModel.swift */; };
 		966B05772A3FCDAF007360F4 /* QuotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966B05762A3FCDAF007360F4 /* QuotesView.swift */; };
 		966B05792A42AA49007360F4 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966B05782A42AA49007360F4 /* CharacterView.swift */; };
+		966B057C2A47703F007360F4 /* RandomQuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966B057B2A47703F007360F4 /* RandomQuoteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		966B05762A3FCDAF007360F4 /* QuotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesView.swift; sourceTree = "<group>"; };
 		966B05782A42AA49007360F4 /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
 		966B057A2A42B8E4007360F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		966B057B2A47703F007360F4 /* RandomQuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomQuoteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				966B05782A42AA49007360F4 /* CharacterView.swift */,
 				96575F482A3F7FAD00FA326B /* Base URL.txt */,
 				96575F492A3F7FAD00FA326B /* samplecharacter.json */,
+				966B057B2A47703F007360F4 /* RandomQuoteView.swift */,
 				96575F4E2A3F8A9C00FA326B /* QuotesModel.swift */,
 				966B05762A3FCDAF007360F4 /* QuotesView.swift */,
 				966B05742A3FCB02007360F4 /* ViewModel.swift */,
@@ -172,6 +175,7 @@
 				966B05732A3FA6AA007360F4 /* Constants.swift in Sources */,
 				96575F3D2A3F7D0F00FA326B /* ContentView.swift in Sources */,
 				96575F3B2A3F7D0F00FA326B /* BB_QuotesApp.swift in Sources */,
+				966B057C2A47703F007360F4 /* RandomQuoteView.swift in Sources */,
 				966B05712A3F9E92007360F4 /* FetchController.swift in Sources */,
 				966B05752A3FCB02007360F4 /* ViewModel.swift in Sources */,
 				966B05772A3FCDAF007360F4 /* QuotesView.swift in Sources */,
