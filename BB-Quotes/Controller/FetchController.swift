@@ -72,7 +72,7 @@ struct FetchController {
         guard let characterURL = baseURL?.appending(path: "quotes") else {
             throw NetworkError.badURL
         }
-        
+        //https://breaking-bad-api-six.vercel.app/api/quotes?character=Chad's+Girlfriend
         var quoteComponents = URLComponents(url: characterURL, resolvingAgainstBaseURL: true)
         
         let quoteItems: URLQueryItem = URLQueryItem(name: "character", value: character.replanceSpaceWithPlus)
